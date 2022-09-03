@@ -20,5 +20,5 @@ Connecting a Google Form to a Node app using Google API and retrieving informati
 
 ## Connecting to a Google auth client
 
-- [x] Go to `https://console.cloud.google.com`
+- [x] Go to <a href="https://console.cloud.google.com" target="_blank">https://console.cloud.google.com</a>
 
