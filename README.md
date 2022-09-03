@@ -1,4 +1,3 @@
-<!-- @format -->
 
 # Connect Google Form to a Node app
 
@@ -20,3 +19,6 @@ Connecting a Google Form to a Node app using Google API and retrieving informati
 ![Spreedsheet](https://user-images.githubusercontent.com/85023604/188126081-784fbe20-1585-4751-80bb-19436ece6595.jpg)
 
 ## Connecting to a Google auth client
+
+- [x] Go to `https://console.cloud.google.com`
+
