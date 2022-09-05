@@ -32,8 +32,9 @@ Connecting a Google Form to a Node app using Google API and retrieving informati
 
 - [x] Select your project
 
+![Screen Shot 2022-09-05 at 3 23 07 PM](https://user-images.githubusercontent.com/85023604/188471123-3d7063a5-b1a2-45a9-88dd-b7ec90c1d9a8.png)
 
+- [x] Enable the sheet API
 
-
-
+> To do this, click on the menu icon -> `API & Services` -> `Library` -> Search for the sheet API using `spreadsheet` and you will get the below result:
 
