@@ -3,7 +3,7 @@
 
 Connecting a Google Form to a Node app using Google API and retrieving information stored in Google sheet
 
-## Creating a Google form and a Google sheet
+## Creating a Google form and a Google sheet:
 
 - [x] Access Google  `Forms` and click on *Blank* to create new or edit existing form 
 
@@ -18,7 +18,22 @@ Connecting a Google Form to a Node app using Google API and retrieving informati
 
 ![Spreedsheet](https://user-images.githubusercontent.com/85023604/188126081-784fbe20-1585-4751-80bb-19436ece6595.jpg)
 
-## Connecting to a Google auth client
+## Creating a Google Service Account:
 
 - [x] Go to <a href="https://console.cloud.google.com">`https://console.cloud.google.com`</a>
+
+- [x] Create a `NEW PROJECT` (if you don't have one already)
+
+![Screen Shot 2022-09-05 at 3 10 40 PM 1](https://user-images.githubusercontent.com/85023604/188469345-46fd776c-5b88-45a3-93ad-16df19016f4d.png)
+
+- [x] Enter your `Project Name` and `Location` and click the `CREATE` button
+
+![Screen Shot 2022-09-05 at 3 18 29 PM](https://user-images.githubusercontent.com/85023604/188470231-3121fd61-ab89-4f7a-8056-30ece74d535e.png)
+
+- [x] Select your project
+
+
+
+
+
 
