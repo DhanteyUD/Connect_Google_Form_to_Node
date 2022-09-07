@@ -36,5 +36,23 @@ Connecting a Google Form to a Node app using Google API and retrieving informati
 
 - [x] Enable the sheet API
 
-> To do this, click on the menu icon -> `API & Services` -> `Library` -> Search for the sheet API using `spreadsheet` and you will get the below result:
+> To do this, click on the menu icon -> `APIs & Services` -> `Library` -> Search for the sheet API using `spreadsheet` and you will get the below result:
+
+![Screen Shot 2022-09-07 at 2 55 37 PM](https://user-images.githubusercontent.com/85023604/188896978-205c1f04-276c-483c-ad0a-e8ec3f8cbf5f.png)
+
+![Screen Shot 2022-09-07 at 2 57 12 PM](https://user-images.githubusercontent.com/85023604/188897081-d18d1936-454d-42be-b4a1-9e574292dfac.png)
+
+- [x] In order to get your credentials, navigate to the dashboard by Clicking the `menu icon` -> `APIs & Services` -> `Dashboard` - `Credentials`. Click on `CREATE CREDENTIALS`
+
+![Screen Shot 2022-09-07 at 3 06 39 PM](https://user-images.githubusercontent.com/85023604/188900029-2f37ed68-a6e4-4972-bfeb-7ba03c17abd3.png)
+
+- [x] After clicking on `CREATE CREDENIALS` -> select `Service Account Key` (for `Key type`, select `JSON`) -> For your `Service account`, enter your desired name,  select your role, enter a service account ID and then click on `CREATE`.
+
+> After creating, the `Private Key` would be saved to your computer. 
+
+- [x] Rename downloaded `Prvate key` to `credentials.json`. Copy and paste into your node application.
+
+
+
+
 
