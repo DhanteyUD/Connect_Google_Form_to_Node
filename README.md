@@ -50,7 +50,7 @@ Connecting a Google Form to a Node app using Google API and retrieving informati
 
 > After creating, the `Private Key` would be saved to your computer. 
 
-- [x] Rename downloaded `Prvate key` to `credentials.json`. Copy and paste into your node application.
+- [x] Rename downloaded `Private key` to `credentials.json`. Copy and paste into your node application.
 
 
 
