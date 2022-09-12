@@ -52,6 +52,7 @@ Connecting a Google Form to a Node app using Google API and retrieving informati
 
 - [x] Rename downloaded `Private key` to `credentials.json`. Copy and paste into your node application.
 
+## Using `credentials.json` in node app and connecting to Google Sheet service:
 
 
 
