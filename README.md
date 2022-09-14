@@ -1,4 +1,3 @@
-
 # Connect Google Form to a Node app
 
 Connecting a Google Form to a Node app using Google API and retrieving information stored in Google sheet
@@ -55,6 +54,8 @@ Connecting a Google Form to a Node app using Google API and retrieving informati
 ## Using `credentials.json` in node app and connecting to Google Sheet service:
 
  - [x] Install bootstraped express application using `npm install express-generator` or `yarn add express-generator`
+
+- [x] install `nodemon` using `npm install nodemon` or `yarn add nodemon`
 
 
 
