@@ -147,3 +147,14 @@ const formData = async () => {
 };
 
 formData();
+```
+4. Go to your `package.json` file and add a `script` for starting your server using `nodemon`
+
+> Under `script`, add 
+> ```js
+> {
+>  "dev": "nodemon ./bin/www"
+> }
+> ```
+
+![{63369149-CBFE-4474-A85A-5C281C027B33} png](https://user-images.githubusercontent.com/85023604/190860329-3ae4103d-e7d8-4a89-8360-ef1981387ef4.jpg)
