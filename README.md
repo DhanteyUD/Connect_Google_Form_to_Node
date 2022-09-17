@@ -158,3 +158,7 @@ formData();
 > ```
 
 ![{F8BD913A-8394-4D8B-AAD6-608D3BE7A104} png](https://user-images.githubusercontent.com/85023604/190860490-c1fbfa91-adbd-49d9-960a-1c4fc2665f76.jpg)
+
+5. Run `npm run dev` to start server
+
+> Wheneven the form is filled and submitted, it gets saved to the googlesheet and our node app immediately converts the `CSV` data to a `JSON` format and saves it to the `Output.json` file.
