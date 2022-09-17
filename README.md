@@ -69,10 +69,10 @@ Go to the `app.js` file and import dependencies for the Google Sheets API
 - [x] Import `credentials` from project root folder
 
 ```js
-  const fs = require('fs'); 
-  const { google } = require('googleapis');
-  const service = google.sheets('v4');
-  const credentials = require('./credentials.json');
+  const fs = require('fs'); // This would be used to write our sheet data to an output JSON file
+  const { google } = require('googleapis'); // This would be used to connect to the Google API
+  const service = google.sheets('v4'); // This is to enable our node app utilize the spreedsheet service
+  const credentials = require('./credentials.json'); // This would be used to authenticate and authourize user access to the spreedshet data
 ```
 
 
