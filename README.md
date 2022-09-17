@@ -150,11 +150,11 @@ formData();
 ```
 4. Go to your `package.json` file and add a `script` for starting your server using `nodemon`
 
-> Under `script`, add 
+> Under `scripts`, add 
 > ```js
 > {
 >  "dev": "nodemon ./bin/www"
 > }
 > ```
 
-![{63369149-CBFE-4474-A85A-5C281C027B33} png](https://user-images.githubusercontent.com/85023604/190860329-3ae4103d-e7d8-4a89-8360-ef1981387ef4.jpg)
+![{F8BD913A-8394-4D8B-AAD6-608D3BE7A104} png](https://user-images.githubusercontent.com/85023604/190860490-c1fbfa91-adbd-49d9-960a-1c4fc2665f76.jpg)
