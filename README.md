@@ -57,6 +57,22 @@ Connecting a Google Form to a Node app using Google API and retrieving informati
 
 - [x] install `nodemon` using `npm install nodemon` or `yarn add nodemon`
 
+> Start your server and get your node app running.
 
+### To connect your google
+
+Go to the `app.js` file and import dependencies for the Google Sheets API
+
+- [x] Import `fs` 
+- [x] Import `google` from `googleapis`
+- [x] Initialize `service` from `google sheet v4`
+- [x] Import `credentials` from project root folder
+
+```js
+  const fs = require('fs'); 
+  const { google } = require('googleapis');
+  const service = google.sheets('v4');
+  const credentials = require('./credentials.json');
+```
 
 
