@@ -59,7 +59,7 @@ Connecting a Google Form to a Node app using Google API and retrieving informati
 
 > Start your server and get your node app running.
 
-### To connect your google
+### To utilize the google sheet service:
 
 1. Go to the `app.js` file and import dependencies for the Google Sheets API
 
