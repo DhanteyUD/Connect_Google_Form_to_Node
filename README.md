@@ -61,7 +61,7 @@ Connecting a Google Form to a Node app using Google API and retrieving informati
 
 ### To connect your google
 
-Go to the `app.js` file and import dependencies for the Google Sheets API
+1. Go to the `app.js` file and import dependencies for the Google Sheets API
 
 - [x] Import `fs` 
 - [x] Import `google` from `googleapis`
@@ -74,5 +74,13 @@ Go to the `app.js` file and import dependencies for the Google Sheets API
   const service = google.sheets('v4'); // This is to enable our node app utilize the spreedsheet service
   const credentials = require('./credentials.json'); // This would be used to authenticate and authourize user access to the spreedshet data
 ```
+2. Configure the Google auth client
 
-
+```js
+  const authClient = new google.auth.JWT(
+    credentials.client_email,
+    null,
+    credentials.private_key.replace(/\\n/g, '\n'),
+    ['https://www.googleapis.com/auth/spreadsheets']
+  );
+```
