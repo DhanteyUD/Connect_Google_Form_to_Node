@@ -84,3 +84,66 @@ Connecting a Google Form to a Node app using Google API and retrieving informati
     ['https://www.googleapis.com/auth/spreadsheets']
   );
 ```
+3. Create a function and write the logic to get the googlesheet data as soon as it is saved on the sheet.
+
+```js
+const formData = async () => {
+  try {
+    
+    const token = await authClient.authorize(); // Authorize the client
+
+    authClient.setCredentials(token);  // Set the client credentials
+
+    // Get the rows
+    const res = await service.spreadsheets.values.get({
+      auth: authClient,
+      spreadsheetId: credentials.spreadsheetId, // This is the id from your Google sheet
+      range: 'A:D', // This indicates the number of columns needed to be shown
+    });
+ ```
+  ![{5D80D875-D217-4872-90EC-1D4ED8B6651C} png](https://user-images.githubusercontent.com/85023604/190859916-cb95fe1e-1d57-44f1-be25-fded0b913601.jpg)
+  
+  ```js
+    // An Output array to hold all data
+    const Output = [];
+
+    // Set rows to equal the rows
+    const rows = res.data.values;
+
+    // Check if we have any data and if we do, add it to our Output array
+    if (rows.length) {
+      // Remove the headers
+      rows.shift();
+
+      // For each row
+      for (const row of rows) {
+        Output.push({
+          TimeStamp: row[0],
+          Name: row[1],
+          Email: row[2],
+          InitialApplications: row[3],
+          CV: row[4],
+        });
+      }
+    } else {
+      console.log('No data found.');
+    }
+
+    // Save output data to a Output.json file
+    fs.writeFileSync(
+      'Output.json',
+      JSON.stringify(Output, null, 2),
+      function (err, file) {
+        if (err) throw err;
+        console.log('Saved!');
+      }
+    );
+  } catch (error) {
+    console.log(error);
+
+    // Exit the process with error
+    process.exit(1);
+  }
+};
+
+formData();
