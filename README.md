@@ -161,4 +161,4 @@ formData();
 
 5. Run `npm run dev` to start server
 
-> Wheneven the form is filled and submitted, it gets saved to the googlesheet and our node app immediately converts the `CSV` data to a `JSON` format and saves it to the `Output.json` file.
+> Wheneven the google form is filled and submitted, the data is automatically saved to googlesheet and our node app immediately converts the `CSV` data to a `JSON` format and saves it to the `Output.json` file.
