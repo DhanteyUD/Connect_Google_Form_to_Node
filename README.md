@@ -1,4 +1,4 @@
-# Connect Google Form to a Node app
+## Connect Google Form to a Node app
 
 Connecting a Google Form to a Node app using Google API and retrieving information stored in Google sheet
 
